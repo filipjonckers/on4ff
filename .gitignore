@@ -1,0 +1,6 @@
+public/
+
+# Other
+.DS_Store
+*.tmp
+
