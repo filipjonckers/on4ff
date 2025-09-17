@@ -1,4 +1,6 @@
+# Hugo related
 public/
+.hugo_build.lock
 
 # Other
 .DS_Store
