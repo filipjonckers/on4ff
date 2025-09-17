@@ -45,6 +45,10 @@ menu:
       type: search
   - name: GitHub
     weight: 5
-    url: "https://github.com/imfing/hextra"
+    url: "https://github.com/filipjonckers"
     params:
       icon: github
+  - name: Theme Toggle
+    params:
+      type: theme-toggle
+      label: false
