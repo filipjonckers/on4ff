@@ -24,9 +24,10 @@ params:
       displayTags: true
   toc:
     displayTags: true
-  googleAnalytics: "{{ getenv `GA_MEASUREMENT_ID` }}"
 
-copyright: "© 2025 ON4FF"
+services:
+  googleAnalytics:
+    ID: "{{ getenv `GA_MEASUREMENT_ID` }}"
 
 menu:
   main:
