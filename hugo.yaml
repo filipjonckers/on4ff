@@ -1,6 +1,6 @@
 baseURL: https://example.com/
 languageCode: en-us
-title: ON4FF
+title: "ON4FF"
 
 module:
   imports:
@@ -24,10 +24,6 @@ params:
       displayTags: true
   toc:
     displayTags: true
-
-services:
-  googleAnalytics:
-    ID: "{{ getenv `GA_MEASUREMENT_ID` }}"
 
 menu:
   main:
