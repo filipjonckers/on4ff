@@ -1,6 +1,8 @@
 baseURL: https://example.com/
 languageCode: en-us
-title: "ON4FF"
+title: "ON4FF, Filip Jonckers"
+enableRobotsTXT: true
+enableEmoji: false
 
 module:
   imports:
@@ -14,16 +16,24 @@ params:
   page:
     # full (100%), wide (90rem), normal (1280px)
     width: wide
+  navbar:
+    displayTitle: true
+    displayLogo: false
   footer:
-    enable: false
-    displayCopyright: false
-    displayPoweredBy: false
-    width: normal
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: true
+    width: wide
   blog:
     list:
       displayTags: true
   toc:
     displayTags: true
+  highlight:
+    copy:
+      enable: true
+      # hover | always
+      display: always
 
 menu:
   main:
@@ -33,9 +43,9 @@ menu:
   # - name: Blog
   #   pageRef: /blog
   #   weight: 2
-  # - name: About
-  #   pageRef: /about
-  #   weight: 3
+  - name: About
+    pageRef: /about
+    weight: 3
   - name: Search
     weight: 4
     params:
@@ -49,3 +59,8 @@ menu:
     params:
       type: theme-toggle
       label: false
+
+outputs:
+  home: [ html, llms ]
+  page: [ html ]
+  section: [ html, rss ]
