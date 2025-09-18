@@ -31,7 +31,7 @@ Example:
 
 ## Download extension
 
-The extension is available in the Visual Studio Code extensions Marketplace.
+The extension is available in the Visual Studio Code extensions [Marketplace](https://marketplace.visualstudio.com/items?itemName=filipjonckers.cabrillo-syntax-highlighting).
 
 ## About the author
 
@@ -48,10 +48,6 @@ But there’s room for you too.
 
 You too can become a radio amateur!
 Join a global community of over a million licensed radio enthusiasts and be part of a worldwide circle of friends.
-
-## Requirements
-
-None.
 
 ## Extension Settings
 

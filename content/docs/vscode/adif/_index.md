@@ -40,7 +40,7 @@ Example:
 
 ## Download extension
 
-The extension is available in the Visual Studio Code extensions Marketplace.
+The extension is available in the Visual Studio Code extensions [Marketplace](https://marketplace.visualstudio.com/items?itemName=filipjonckers.adif-syntax-highlighting).
 
 ## About the author
 
@@ -52,10 +52,6 @@ Radio amateurs can be found almost in every country and in various circles.
 They represent a motley collection of backgrounds and professions. They have one thing in common: their passion for technology and for radio. Among them were the late King Hussein of Jordan, his fellow King Juan Carlos of Spain and the late Indian Prime Minister Rhajiv Ghandi. Carlos Menem, president of Argentina, also joined radio amateurs. But there is room for you too.
 
 You too can become a radio amateur! You will then join the circle of friends of more than a million licensed radio amateurs worldwide.
-
-## Requirements
-
-None.
 
 ## Extension Settings
 
