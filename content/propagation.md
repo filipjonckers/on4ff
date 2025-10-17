@@ -4,11 +4,11 @@ draft: False
 title: 'Current Propagation'
 ---
 
+![Zone14](https://bsdworld.org/DXCC/cqzone/14/latest-light.png)
+
 ![A-Index](https://bsdworld.org/aindex-light.svgz)
 
 ![Planetary K-Index Prediction](https://bsdworld.org/pki-forecast-light.svgz)
-
-![Zone14](https://bsdworld.org/DXCC/cqzone/14/latest-light.png)
 
 ![D-Layer Absorption](https://bsdworld.org/d-rap/latest-light.svgz)
 

@@ -66,4 +66,4 @@ menu:
 outputs:
   home: [ html, llms ]
   page: [ html ]
-  section: [ html, rss ]
+  section: [ html ]
