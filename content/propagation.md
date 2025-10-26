@@ -12,6 +12,8 @@ title: 'Current Propagation'
 
 ![D-Layer Absorption](https://bsdworld.org/d-rap/latest-light.svgz)
 
+![MUF](https://prop.kc2g.com/renders/current/mufd-normal-now.svg)
+
 ![SSN Since 1961](https://bsdworld.org/ssnhist-light.svgz)
 
 {{< video src="https://bsdworld.org/enlil.mp4" >}}
