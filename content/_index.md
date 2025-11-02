@@ -10,12 +10,12 @@ I’ve always been drawn to how things connect — whether it’s radio signals 
 
 As an amateur radio operator since 1993 (callsign ON4FF), I enjoy the challenge and teamwork of radio sport contests, including events like the [CQ World Wide](https://cqww.com) and [CQ WPX](https://cqwpx.com).
 
-[This site](/on4ff/docs) is where I share a few of the projects, experiments, problem-solving adventures and ideas I’ve been working on — scroll down to explore some highlights.
+[This site](/docs) is where I share a few of the projects, experiments, problem-solving adventures and ideas I’ve been working on — scroll down to explore some highlights.
 
 Filip Jonckers
 ON4FF
 
 {{< cards >}}
-  {{< card link="on4ff/docs/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
-  {{< card link="on4ff/docs/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="docs/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="docs/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
 {{< /cards >}}
