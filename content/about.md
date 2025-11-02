@@ -12,6 +12,8 @@ These days, I’m lucky enough to [work](https://www.linkedin.com/in/filipjoncke
 
 I’m also an amateur radio operator with the callsign ON4FF, active in the ham radio community since 1993. I especially enjoy the teamwork and challenge of radio sport contests, particularly in multi-operator events like the [CQ World Wide](https://cqww.com) and [CQ WPX](https://cqwpx.com) contests.
 
+From 1986 to 2001, I also hosted the FunkReaction radio show, which aired on Hit FM - Radio Midden Limburg. The show featured the hottest funk, disco, R&B, and soul — nearly 30 hours of hand-picked classics that still bring back great memories. You can find a hand picked selection on my [Spotify Funk Reaction playlist](https://open.spotify.com/playlist/1s8eUpRysaxXYEMuEgy6xL?si=yCEkrfd5QmuU3PiIa1kEsg)
+
 This site is my corner of the internet — a place to share [projects](https://github.com/filipjonckers), experiments, and the occasional deep dive into something I’ve been tinkering with or trying to figure out.
 
 Filip Jonckers
