@@ -12,7 +12,7 @@ These days, I’m lucky enough to [work](https://www.linkedin.com/in/filipjoncke
 
 I’m also an amateur radio operator with the callsign ON4FF, active in the ham radio community since 1993. I especially enjoy the teamwork and challenge of radio sport contests, particularly in multi-operator events like the [CQ World Wide](https://cqww.com) and [CQ WPX](https://cqwpx.com) contests.
 
-This site is my corner of the internet — a place to share projects, experiments, and the occasional deep dive into something I’ve been tinkering with or trying to figure out.
+This site is my corner of the internet — a place to share [projects](https://github.com/filipjonckers), experiments, and the occasional deep dive into something I’ve been tinkering with or trying to figure out.
 
 Filip Jonckers
 ON4FF
