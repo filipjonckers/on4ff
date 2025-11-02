@@ -4,4 +4,7 @@ draft: false
 title: 'Content'
 ---
 
-Placeholder
+{{< cards >}}
+  {{< card link="/docs/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="/docs/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
+{{< /cards >}}
