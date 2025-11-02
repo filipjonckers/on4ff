@@ -4,13 +4,15 @@ draft: false
 title: 'About'
 ---
 
-Hi there, and welcome!
+Hi there — glad you stopped by!
 
-This site is where I share some of the projects, experiments, and problem-solving adventures I’ve worked on over the years.
+Ever since I can remember, I’ve been fascinated by how we connect and communicate — from radio waves bouncing across the globe to airplanes weaving through invisible paths in the sky. That curiosity has shaped just about everything I do.
 
-I’ve always been fascinated by communications, aeronautics, and software engineering, and I’m lucky enough to work professionally in the air traffic management (ATM) world — right at the intersection of those interests.
+These days, I’m lucky enough to [work](https://www.linkedin.com/in/filipjonckers) in the world of air traffic control (ATC) and air traffic management (ATM), where technology, communication, and aviation all come together in some of the most complex systems out there. It’s a space where there’s always something new to learn — and that’s what keeps me hooked.
 
-Outside of work, I’m an amateur radio operator with the callsign ON4FF (formerly ON1AFN). I’ve been part of the ham radio community since 1993, and I especially enjoy getting involved in radio sports contesting in a multi-operator environment such as the CQ World Wide or the WPX Contests.
+I’m also an amateur radio operator with the callsign ON4FF, active in the ham radio community since 1993. I especially enjoy the teamwork and challenge of radio sport contests, particularly in multi-operator events like the [CQ World Wide](https://cqww.com) and [CQ WPX](https://cqwpx.com) contests.
+
+This site is my corner of the internet — a place to share projects, experiments, and the occasional deep dive into something I’ve been tinkering with or trying to figure out.
 
 Filip Jonckers
 ON4FF

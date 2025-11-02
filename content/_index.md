@@ -6,16 +6,16 @@ title: ''
 
 Hi there, and welcome!
 
-This site is where I share some of the projects, experiments, and problem-solving adventures I’ve worked on over the years.
+I’ve always been drawn to how things connect — whether it’s radio signals reaching across continents, software development, or airplanes moving safely through the sky. This curiosity led me to a [career](https://www.linkedin.com/in/filipjonckers) in the air traffic control (ATC) and air traffic management (ATM), where technology and communication meet in complex, ever-evolving ways.
 
-I’ve always been fascinated by communications, aeronautics, and software engineering, and I’m lucky enough to work professionally in the air traffic management (ATM) world — right at the intersection of those interests.
+As an amateur radio operator since 1993 (callsign ON4FF), I enjoy the challenge and teamwork of radio sport contests, including events like the [CQ World Wide](https://cqww.com) and [CQ WPX](https://cqwpx.com).
 
-Outside of work, I’m an amateur radio operator with the callsign ON4FF (formerly ON1AFN). I’ve been part of the ham radio community since 1993, and I especially enjoy getting involved in radio sports contesting in a multi-operator environment such as the CQ World Wide or the WPX Contests.
+This site is where I share a few of the projects, experiments, problem-solving adventures and ideas I’ve been working on — scroll down to explore some highlights.
 
 Filip Jonckers
 ON4FF
 
 {{< cards >}}
-  {{< card link="/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
-  {{< card link="/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="on4ff/docs/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="on4ff/docs/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
 {{< /cards >}}
