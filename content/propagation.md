@@ -17,3 +17,9 @@ title: 'Current Propagation'
 ![SSN Since 1961](https://bsdworld.org/ssnhist-light.svgz)
 
 {{< video src="https://bsdworld.org/enlil.mp4" >}}
+
+#### Sources
+
+- [NOAA Space Weather dashboard](https://www.spaceweather.gov/communities/space-weather-enthusiasts-dashboard)
+- [bsdworld.org - HF Propagation & Sun Activity for Ham Radio Operators](https://bsdworld.org)
+- [prop.kc2g.com](https://prop.kc2g.com)
