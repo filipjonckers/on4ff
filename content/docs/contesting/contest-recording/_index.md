@@ -10,6 +10,8 @@ tags: ["HAM", "Contesting", "Windows", "Radio Amateur", "Radio sports", "QSO", "
 
 ## Continuous contest audio recording
 
+[QSORDER by Vasily, K3IT](https://github.com/k3it/qsorder/releases) can be used to create continuous audio recordings during radio sport contests.
+
 ### Running QSORDER in the Background on Windows 11
 
 #### Reliable, Continuous Contest Audio Recording Without Interruptions
