@@ -18,5 +18,6 @@ ON4FF
 {{< cards >}}
   {{< card link="docs/vscode/cabrillo" title="Cabrillo syntax highlighting" subtitle="Visual Studio Code extension" >}}
   {{< card link="docs/vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
+  {{< card link="docs/contesting/contest-recording" title="Contest audio recording" subtitle="Contesting" >}}
   {{< card link="docs/ads-b/pi-adsb-docker" title="ADS-B feeder using Docker" subtitle="Raspberry Pi" >}}
 {{< /cards >}}
