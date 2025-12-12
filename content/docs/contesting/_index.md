@@ -9,4 +9,5 @@ sidebar:
 
 {{< cards >}}
   {{< card link="contest-recording" title="Contest audio recording" subtitle="Contesting" >}}
+  {{< card link="dx-cluster-filter" title="DX Cluster contest filters" subtitle="Contesting" >}}
 {{< /cards >}}
