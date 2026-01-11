@@ -40,6 +40,9 @@ menu:
   - name: Content
     pageRef: /docs
     weight: 1
+  - name: Community Picks
+    pageRef: /community-picks
+    weight: 4
   # - name: Blog
   #   pageRef: /blog
   #   weight: 2
