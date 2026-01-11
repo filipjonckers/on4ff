@@ -15,14 +15,25 @@ Community Picks highlights noteworthy articles, open-source repos, and community
 
 - [N1MM with Piper TTS for AI generated messages by Kari Lehtimaki, OH2XX](https://github.com/oh2xx/n1mm-callsign-tts)
 
-## Cloud based HAM Radio Logging
+## HAM Radio Logging software
 
+- [DXLog - Overall the best contest logging software (sadly enough windows only)](https://dxlog.net/)
+- [N1MM+ - One of the best overall contest logging software programs](https://n1mmwp.hamdocs.com/)
+- [RUMLogNG - The best overall Mac OS logging software for everyday logging and contesting](https://www.dl2rum.de/rumsoft/RUMLog.html)
 - [Wavelog - spinoff from Cloudlog](https://github.com/wavelog/wavelog)
 - [Cloudlog](https://github.com/magicbug/Cloudlog)
+- [WaveLogStoat - UDP ADIF bridge (FlexRadio to WaveLog)](https://github.com/int2001/WaveLogStoat)
+- [WaveLogGate - CAT and UDP ADIF bridge (FlexRadio to WaveLog)](https://github.com/wavelog/WaveLogGate)
+  
+Blog posts ...
+
+- [Blog post with opinions on logging software by WW0CJ (January 2025)](https://ww0cj.radio/opinions-on-logging-software)
+- [Wavelog - my logging software of choice by Filip Melik, OK1GOD](https://melik.cz/posts/wavelog-my-logging-choice/)
 
 ## Talks and presentations
 
 - [Curated list of talks by Jan Van Ryswyck](https://github.com/JanVanRyswyck/awesome-talks)
+- [IARU HAM Radio Code of Conduct](https://www.iaru-r1.org/on-the-air/code-of-conduct/versions/)
 
 ## Apple - Mac
 
