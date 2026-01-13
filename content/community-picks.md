@@ -20,6 +20,7 @@ Community Picks highlights noteworthy articles, open-source repos, and community
 - [DXLog - Overall the best contest logging software (sadly enough windows only)](https://dxlog.net/)
 - [N1MM+ - One of the best overall contest logging software programs](https://n1mmwp.hamdocs.com/)
 - [RUMLogNG - The best overall Mac OS logging software for everyday logging and contesting](https://www.dl2rum.de/rumsoft/RUMLog.html)
+
 - [Wavelog - spinoff from Cloudlog](https://github.com/wavelog/wavelog)
 - [Cloudlog](https://github.com/magicbug/Cloudlog)
 - [WaveLogStoat - UDP ADIF bridge (FlexRadio to WaveLog)](https://github.com/int2001/WaveLogStoat)
@@ -29,6 +30,13 @@ Blog posts ...
 
 - [Blog post with opinions on logging software by WW0CJ (January 2025)](https://ww0cj.radio/opinions-on-logging-software)
 - [Wavelog - my logging software of choice by Filip Melik, OK1GOD](https://melik.cz/posts/wavelog-my-logging-choice/)
+
+## MAC and HAM
+
+Best software picks for HAMs using a Mac:
+
+- [RUMLogNG - The best overall Mac OS logging software for everyday logging and contesting](https://www.dl2rum.de/rumsoft/RUMLog.html)
+- [iDigi - CW, RTTY, FT8, FT4, WSPR, PSK, ... decoding and sending](https://idigi.ch)
 
 ## Talks and presentations
 
