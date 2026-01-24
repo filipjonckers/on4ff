@@ -1,8 +1,13 @@
-baseURL: https://example.com/
+baseURL: https://filipjonckers.github.io/on4ff/
 languageCode: en-us
 title: "ON4FF, Filip Jonckers"
 enableRobotsTXT: true
 enableEmoji: false
+
+sitemap:
+  changefreq: daily
+  priority: 0.8
+  filename: sitemap.xml
 
 module:
   imports:
