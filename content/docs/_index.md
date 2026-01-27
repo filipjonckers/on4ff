@@ -11,5 +11,6 @@ This is where I share a few of the projects, experiments, problem-solving advent
   {{< card link="vscode/adif" title="ADIF syntax highlighting" subtitle="Visual Studio Code extension" >}}
   {{< card link="contesting/dx-cluster-filter" title="DX Cluster contest filters" subtitle="Contesting" >}}
   {{< card link="contesting/contest-recording" title="Contest audio recording" subtitle="Contesting" >}}
+  {{< card link="contesting/microphone-audio-settings" title="Microphone audio settings" subtitle="Contesting" >}}
   {{< card link="ads-b/pi-adsb-docker" title="ADS-B feeder using Docker" subtitle="Raspberry Pi" >}}
 {{< /cards >}}
