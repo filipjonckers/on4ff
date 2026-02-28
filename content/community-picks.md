@@ -26,6 +26,8 @@ Community Picks highlights noteworthy articles, open-source repos, and community
 - [N1MM+ - One of the best overall contest logging software programs](https://n1mmwp.hamdocs.com/)
 - [RUMLogNG - The best overall Mac OS logging software for everyday logging and contesting](https://www.dl2rum.de/rumsoft/RUMLog.html)
 
+### Cloud logging software
+
 - [Wavelog - spinoff from Cloudlog](https://github.com/wavelog/wavelog)
 - [Cloudlog](https://github.com/magicbug/Cloudlog)
 - [WaveLogStoat - UDP ADIF bridge (FlexRadio to WaveLog)](https://github.com/int2001/WaveLogStoat)
