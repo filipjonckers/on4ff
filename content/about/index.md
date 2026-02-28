@@ -6,6 +6,8 @@ title: 'About'
 
 Hi there — glad you stopped by!
 
+{{< figure src="filip_profiel_2025_B_bw.png" alt="" class="float-right" width="240" >}}
+
 Ever since I can remember, I’ve been fascinated by how we connect and communicate — from radio waves bouncing across the globe to airplanes weaving through invisible paths in the sky. That curiosity has shaped just about everything I do.
 
 These days, I’m lucky enough to [work](https://www.linkedin.com/in/filipjonckers) in the world of air traffic control (ATC) and air traffic management (ATM), where technology, communication, and aviation all come together in some of the most complex systems out there. It’s a space where there’s always something new to learn — and that’s what keeps me hooked.
