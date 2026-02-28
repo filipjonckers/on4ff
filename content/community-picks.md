@@ -1,10 +1,15 @@
 ---
-date: '2026-01-11T11:00:00+02:00'
+date: '2026-02-28T00:00:00+02:00'
 draft: False
 title: 'Community Picks'
 ---
 
 Community Picks highlights noteworthy articles, open-source repos, and community-driven projects spanning HAM radio, IT, and software development. Each item is something I’ve found useful or technically interesting, shared here for others who enjoy learning, experimenting, and building.
+
+## Radio Sports - Contests - DXpeditions
+
+- [8 day contest calendar by Bruce Horn, WA7BNM](https://www.contestcalendar.com/weeklycont.php)
+- [DXpeditions calendar at Ham365](https://www.ham365.net/Dxpeditions)
 
 ## FlexRadio
 
