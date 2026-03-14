@@ -150,15 +150,15 @@ sh/filter
 
 ### DXpedition
 
-Accepts only spots from zones 14 and 15 but no WARC bands for a specific DXpedition
+Accepts only spots from zones 14 and 15 but no WARC bands for specific DXpeditions
 
 ```vim
 clear/spots all
 clear/rbn all
 reject/spots on warc
-accept/spots 3Y0K and by_zone 14,15
+accept/spots call 3Y0K,TX5EU and by_zone 14,15
 reject/rbn on warc
-accept/rbn 3Y0K and by_zone 14,15
+accept/rbn call 3Y0K,TX5EU and by_zone 14,15
 set/skimmer
 sh/filter
 ```
