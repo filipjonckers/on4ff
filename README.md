@@ -23,3 +23,16 @@ To update the theme do:
 ```shell
 $ hugo mod get -u github.com/imfing/hextra
 ```
+
+or more general, update all mod's:
+
+```shell
+$ hugo mod get -u
+$ hugo mod tidy
+```
+
+## Local test run before deployment
+
+```shell
+$ hugo server --buildDrafts
+```

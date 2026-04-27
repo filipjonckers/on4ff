@@ -14,6 +14,9 @@ module:
   - path: github.com/imfing/hextra
 
 params:
+  author:
+    name: Filip Jonckers
+    email: noreply@example.com
   theme:
     # light | dark | system
     default: system

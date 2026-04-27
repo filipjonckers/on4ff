@@ -16,3 +16,13 @@ body {
   margin-left: 1em;
   margin-bottom: 1em;
 }
+
+/* left menu - increase width */
+aside {
+  width: 20rem !important;
+}
+
+/* left menu - do not wrap text */
+.hextra-sidebar a {
+  white-space: nowrap;
+}
