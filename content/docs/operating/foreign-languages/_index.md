@@ -44,3 +44,18 @@ You don’t need to be multilingual to make an international contact feel person
 | Swedish, Norwegian | Hej                   | Tak / Takk                |
 | Danish, Icelandic  |                       |                           |
 | Ukrainian          | Pryvit                | Dyakuyu                   |
+
+## Common contesting exchanges
+
+| Country     | Hello        | Thank you     | 5 9         |
+| ----------- | ------------ | ------------- | ----------- |
+| Dutch       | Hallo        | Bedankt       | Vijf Negen  |
+| English     | Hello        | Thanks        | Five Nine   |
+| French      | Bonjour      | Merci         | Cinq Neuf   |
+| German      | Hallo        | Danke         | Fünf Neun   |
+| Greek       | Yassas       | Efcharistó    | Pende Ennea |
+| Italian     | Buon giorno  | Grazie        | Cinque Nove |
+| Japanese    | Konnichiwa   | Arigato       | Go Kyuu     |
+| Portuguese  | Olá          | Obrigado      | Cinco Nove  |
+| Russian     | Privet       | Spasibo       | Pyat Devyat |
+| Spanish     | Hola         | Gracias       | Cinco Nueve |
