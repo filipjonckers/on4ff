@@ -72,6 +72,13 @@ accept/rbn by_zone 14,15
 
 To find your own CQ zone, go to (mapability.com)[https://www.mapability.com/ei8ic/maps/cqzone.php] where EI8IC is doing an amazing job in providing all kind of maps.
 
+## Filter out FT8 and other data modes
+
+By rejecting all data subbands and info containing data modes:
+
+```vim
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
+```
 
 ## Practical examples
 
@@ -82,19 +89,19 @@ Accepts only CW spots and RBNs from zones 14 and 15 but wide enough to also show
 ```vim
 clear/spots all
 clear/rbn all
-reject/spots info ft8,ft4,rtty
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
 accept/spots on contesthf and by_zone 14,15
 accept/rbn on contesthf and by_zone 14,15
 set/skimmer cw
 sh/filter
 ```
 
-Or more specifically on on the HF CW subbands:
+Or more specifically on the HF CW subbands:
 
 ```vim
 clear/spots all
 clear/rbn all
-reject/spots info ft8,ft4,rtty
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
 accept/spots on contesthf/cw and by_zone 14,15
 accept/rbn on contesthf and by_zone 14,15
 set/skimmer cw
@@ -119,7 +126,7 @@ Accepts only 20m CW spots and RBNs from CQ zones 14 and 15:
 ```vim
 clear/spots all
 clear/rbn all
-reject/spots info ft8,ft4,rtty
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
 accept/spots on 20m and by_zone 14,15
 accept/rbn on 20m and by_zone 14,15
 set/skimmer cw
@@ -157,7 +164,7 @@ Accepts only SSB spots from CQ zones 14 and 15:
 ```vim
 clear/spots all
 clear/rbn all
-reject/spots info ft8,ft4,rtty
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
 accept/spots on contesthf/ssb and by_zone 14,15
 unset/skimmer
 sh/filter
@@ -170,7 +177,7 @@ Accepts only spots from CQ zones 14 and 15 (replace with your own CQ zone):
 ```vim
 clear/spots all
 clear/rbn all
-reject/spots info ft8,ft4,rtty
+reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
 accept/spots on contesthf and by_zone 14,15
 accept/rbn on contesthf and by_zone 14,15
 set/skimmer cw
