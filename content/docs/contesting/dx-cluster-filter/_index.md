@@ -5,7 +5,7 @@ title: 'DX Cluster contest filters'
 weight: 200
 sidebar:
     open: true
-tags: ["HAM", "Contesting", "Radio Amateur", "RadioSports", "QSO", "CQWW", "DXCluster", "N1MM+", "N1MM", "DXLog", "RumlogNG", "dxspider", "DX-Spider"]
+tags: ["cluster filter", "dx", "HAM", "Contesting", "Radio Amateur", "RadioSports", "QSO", "CQWW", "DXCluster", "N1MM+", "N1MM", "DXLog", "RumlogNG", "dxspider", "DX-Spider"]
 ---
 
 This page contains a number of useful DX Cluster filters for HAM radio contesting. The filter format is specifically targeted towards DX-Spider clusters, used by our local [DX cluster](telnet://nolcluster.on8ar.eu:7300).
@@ -61,14 +61,17 @@ accept/spots on 10m
 accept/rbn on 10m
 ```
 
-## Filter by zone
+## Filter by CQ zone
 
-To see only spots from spotters in zones 14 and 15 (Western Europe):
+To see only spots from spotters in CQ zones 14 and 15 (Western Europe):
 
 ```vim
 accept/spots by_zone 14,15
 accept/rbn by_zone 14,15
 ```
+
+To find your own CQ zone, go to (mapability.com)[https://www.mapability.com/ei8ic/maps/cqzone.php] where EI8IC is doing an amazing job in providing all kind of maps.
+
 
 ## Practical examples
 
@@ -81,6 +84,18 @@ clear/spots all
 clear/rbn all
 reject/spots info ft8,ft4,rtty
 accept/spots on contesthf and by_zone 14,15
+accept/rbn on contesthf and by_zone 14,15
+set/skimmer cw
+sh/filter
+```
+
+Or more specifically on on the HF CW subbands:
+
+```vim
+clear/spots all
+clear/rbn all
+reject/spots info ft8,ft4,rtty
+accept/spots on contesthf/cw and by_zone 14,15
 accept/rbn on contesthf and by_zone 14,15
 set/skimmer cw
 sh/filter
@@ -99,7 +114,7 @@ sh/filter
 
 ### CW contest on 20m
 
-Accepts only 20m CW spots and RBNs from zones 14 and 15:
+Accepts only 20m CW spots and RBNs from CQ zones 14 and 15:
 
 ```vim
 clear/spots all
@@ -137,7 +152,7 @@ sh/filter
 
 ### SSB contest
 
-Accepts only SSB spots from zones 14 and 15
+Accepts only SSB spots from CQ zones 14 and 15:
 
 ```vim
 clear/spots all
@@ -145,6 +160,20 @@ clear/rbn all
 reject/spots info ft8,ft4,rtty
 accept/spots on contesthf/ssb and by_zone 14,15
 unset/skimmer
+sh/filter
+```
+
+### Mixed CW and SSB contest
+
+Accepts only spots from CQ zones 14 and 15 (replace with your own CQ zone):
+
+```vim
+clear/spots all
+clear/rbn all
+reject/spots info ft8,ft4,rtty
+accept/spots on contesthf and by_zone 14,15
+accept/rbn on contesthf and by_zone 14,15
+set/skimmer cw
 sh/filter
 ```
 

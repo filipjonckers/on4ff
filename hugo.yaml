@@ -3,6 +3,7 @@ locale: en-us
 title: "ON4FF, Filip Jonckers"
 enableRobotsTXT: true
 enableEmoji: false
+enableGitInfo: true
 
 sitemap:
   changefreq: daily
@@ -42,6 +43,9 @@ params:
       enable: true
       # hover | always
       display: always
+
+frontmatter:
+  lastmod: [ ":git", ":frontmatter", ":fileModTime" ]
 
 menu:
   main:
