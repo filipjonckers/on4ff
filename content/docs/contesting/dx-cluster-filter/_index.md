@@ -74,7 +74,13 @@ To find your own CQ zone, go to (mapability.com)[https://www.mapability.com/ei8i
 
 ## Filter out FT8 and other data modes
 
-By rejecting all data subbands and info containing data modes:
+By rejecting all data subbands:
+
+```vim
+reject/spots on hf/data
+```
+
+Or more detailed by rejecting all data subbands and info containing data modes:
 
 ```vim
 reject/spots on hf/data or on hf/rtty or info ft8,ft4,ft2,rtty
