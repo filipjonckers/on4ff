@@ -25,6 +25,30 @@ clear/spots all
 clear/rbn all
 ```
 
+## Filter Line Numbers (Slots)
+
+When writing complex filtering rules in DXSpider, you can assign an explicit line number (or slot position) directly after the command name (e.g., reject/spots 1 ... or accept/spots 2 ...). DXSpider evaluates your active filter rules sequentially based on these line numbers, starting from lowest to highest. If you do not specify a line number when entering a command, DXSpider defaults to line number 1.
+
+*The Filter Flow:* If a spot matches a reject rule on line 1, it is immediately discarded. The cluster engine will never evaluate line 2 for that specific spot.
+
+*The Layered Logic:* This allows you to chain rules together logically. For example, you can drop digital modes on line 1, and then exclusively accept CW or SSB on line 2 from the surviving spots.
+
+*The Risk:* Typing a new filter command without a slot number will overwrite whatever is currently occupying line 1.
+
+*The Fix:* Explicitly naming your lines (1, 2, 3) allows you to stack multiple independent filter strings without accidentally deleting your previous rules.
+
+You can use line numbers to cleanly separate your commands:
+
+```vim
+clear/spots all
+reject/spots 1 on hf/data or on hf/rtty or info ft8,ft4,ft2
+accept/spots 2 on hf/cw or on hf/ssb
+```
+
+In this scenario, line 1 acts as a bulletproof shield that instantly drops digital data, while line 2 acts as a gatekeeper that only opens for voice and CW traffic.
+
+To keep this tutorial simple we only use line 1 but don't hesitate to write more complex combinations.
+
 ## Using skimmer spots
 
 Use the ```set/skimmer``` and ```unset/skimmer``` commands to enable/disable skimmer spots, optionally for a specific mode:
