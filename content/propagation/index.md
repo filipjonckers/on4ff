@@ -34,9 +34,9 @@ title: 'Current Propagation'
 
 ## Space Weather Forecasting Model (ENLIL)
 
-{{< video src="https://bsdworld.org/enlil.mp4">}}
-
 ![ENLIL Movie](https://iswa.gsfc.nasa.gov/api/redirect?dataID=349)
+
+{{< video src="https://bsdworld.org/enlil.mp4">}}
 
 ## Sources
 
