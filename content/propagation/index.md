@@ -36,10 +36,14 @@ title: 'Current Propagation'
 
 {{< video src="https://bsdworld.org/enlil.mp4">}}
 
+![ENLIL Movie](https://iswa.gsfc.nasa.gov/api/redirect?dataID=349)
+
 ## Sources
 
+- [Serge Stroobandt, ON4AA and Erwin Fiten, ON8AR](https://hamwaves.com/swx/)
 - [NOAA Space Weather dashboard](https://www.spaceweather.gov/communities/space-weather-enthusiasts-dashboard)
 - [bsdworld.org - HF Propagation & Sun Activity for Ham Radio Operators](https://bsdworld.org)
 - [Royal Observatory of Belgium - Solar Influences Data Analysis Center - SILSO](https://www.sidc.be/SILSO)
 - [NOAA Space Weather Prediction Center (SWPC)](https://www.spaceweatherlive.com/en/solar-activity/wsa-enlil.html)
+- [NASA Community Coordinated Modeling Center - ISWA System](https://ccmc.gsfc.nasa.gov/tools/ISWA)
 - [prop.kc2g.com](https://prop.kc2g.com)
