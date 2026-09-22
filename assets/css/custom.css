@@ -26,3 +26,21 @@ aside {
 .hextra-sidebar a {
   white-space: nowrap;
 }
+
+@media (min-width: 1024px) {
+  :root {
+    --hextra-max-page-width: 100rem;
+    --hextra-max-content-width: 90%;
+    --hextra-max-navbar-width: 100rem;
+    --hextra-max-footer-width: 100rem;
+  }
+  .hextra-sidebar-container {
+    width: 20rem !important; /* scale left menu width */
+  }
+  .hextra-toc-container {
+    width: 18rem !important; /* scale TOC width */
+  }
+  .hextra-content-container {
+    max-width: var(--hextra-max-content-width) !important; /* scale content width */
+  }
+}
