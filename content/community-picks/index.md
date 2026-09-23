@@ -20,6 +20,7 @@ Community Picks highlights noteworthy articles, open-source repos, and community
 
 - [SmartUnlink - makes your FlexRadio visible over VPN connections by Brian Keating](https://github.com/brianbruff/SmartUnlink)
 - [NetKeyer - a cross-platform GUI FlexRadio CW Keyer.](https://github.com/NetKeyer/NetKeyer)
+- [FlexVoicekeyer - voice keyer for remote operations using DAX/SmartSDR by OE3IDE](https://www.oe3ide.com/flexvoicekeyer)
 
 ## Text To Speech for HAM Radio Contesting
 
