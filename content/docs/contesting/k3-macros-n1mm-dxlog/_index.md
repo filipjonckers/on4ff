@@ -60,7 +60,8 @@ In N1MM+:
 In DXLog:
 
 - a function key macro can only be used in CW and digital modes
-- The function keys are dedicated to DVK in SSB mode
+- the function keys are dedicated to DVK in SSB mode
+- scripts can be used to create custom keyboard CAT commands in any operating mode
 
 ## Macros in N1MM Logger+
 
@@ -354,6 +355,8 @@ An alternative approach is to use the C# scripting capabilities in DXLog. There 
 1. assign the script to a keypress
 2. listen for specific keypresses and use a callback function to trigger the sending of the CAT command
 
+### K3 RX ANT toggle
+
 This is an example of a script that can be assigned to a specific keypress:
 
 ```csharp
@@ -401,6 +404,147 @@ namespace DXLog.net
 Save the file with a `.cs` extension and open `Tools | Scripts Manager`, add the script and assign it to a function key (F9):
 
 ![dxlog_script_manager1.png](dxlog_script_manager1.png)
+
+### K3 internal voice keyer recording
+
+A more comprehensive, but very powerful, way to link virtually any keyboard shortcut is to use a script that is triggered by a keystroke. The script evaluates which key was pressed and, if it matches the desired shortcut, sends the corresponding CAT command to the K3 transceiver.
+
+```csharp
+namespace DXLog.net
+{
+    public class K3DVK : IScriptClass
+    {
+        private const string REC = "SWT37;";
+        private const string M1  = "SWT21;";
+        private const string M2  = "SWT31;";
+        private const string M3  = "SWT35;";
+        private const string M4  = "SWT39;";
+
+        private ContestData _contestData;
+        private FrmMain _mainForm;
+        private bool _isRecording = false;
+
+        public void Initialize(FrmMain mainForm)
+        {
+             _mainForm = mainForm;
+             _contestData = mainForm.ContestDataProvider;
+
+            // callback function when a key is pressed
+            mainForm.KeyDown += HandleKeyPress;
+
+            mainForm.SetMainStatusText($"ROCKALL K3 voice keyer control available ...");
+        }
+
+        public void Deinitialize()
+        {
+            // unregister myself
+            if (_mainForm != null)
+            {
+                _mainForm.KeyDown -= HandleKeyPress;
+            }
+        }
+
+        public int getFocusRadio(ContestData cdata)
+        {
+            // if SO2V send command to radio 1 regardless if VFO A or B are focused
+            if (cdata.OPTechnique == ContestData.Technique.SO2V)
+                return 1;
+            else
+                return cdata.FocusedRadio;
+        }
+
+        public void Main(FrmMain mainForm, ContestData cdata, COMMain comMain, MidiEvent midiEvent)
+        {
+            string utcTime = DateTime.UtcNow.ToString("HH:mm:ss");
+            mainForm.SetMainStatusText($"{utcTime} > script toggled.");
+        }
+
+        private void HandleKeyPress(object sender, KeyEventArgs e)
+        {
+            if (!e.Shift)
+                return;
+            
+            string dvkMem = string.Empty;
+            int dvk = 0;
+
+            switch (e.KeyCode)
+            {
+                case Keys.F1:
+                    dvk = 1;
+                    dvkMem = M1;
+                    break;
+                case Keys.F2:
+                    dvk = 2;
+                    dvkMem = M2;
+                    break;
+                case Keys.F3:
+                    dvk = 3;
+                    dvkMem = M3;
+                    break;
+                case Keys.F4:
+                    dvk = 4;
+                    dvkMem = M4;
+                    break;
+                default:
+                    break;
+            }
+
+            if (string.IsNullOrEmpty(dvkMem))
+                return;
+            
+            // Block DXLog's default handling of Shift+F1 to F4
+            e.Handled = true;
+            e.SuppressKeyPress = true;
+
+            SentDvkCommand(dvk, dvkMem);
+        }
+
+        private void SentDvkCommand(int dvk, string command)
+        {
+            if (string.IsNullOrEmpty(command))
+                return;
+
+            var radio = getFocusRadio(_contestData);
+            var radioObject = _mainForm.COMMainProvider.RadioObject(radio);
+            string utcTime = DateTime.UtcNow.ToString("HH:mm:ss");
+
+            if (radioObject == null)
+            {
+                _mainForm.SetMainStatusText($"{utcTime} > ERROR: no radio #{radio} object !");
+                return;
+            }
+
+            string catCommand = string.Empty;
+            if (_isRecording)
+            {
+                // sent SWT37 (REC) to stop recording
+                catCommand = REC;
+                _mainForm.SetMainStatusText($"{utcTime} > K3 voice keyer #{dvk} STOP RECORDING. (R{radio})");
+            }
+            else
+            {
+                // sent SWT37 (REC) and SWTxx for memory bank to start recording
+                catCommand = REC + command;
+                _mainForm.SetMainStatusText($"{utcTime} > K3 voice keyer #{dvk} RECORDING... (R{radio})");
+            }
+            _isRecording = !_isRecording;
+
+            radioObject.SendCustomCommand(catCommand);
+        }
+    }
+}
+```
+
+
+Save the file with a `.cs` extension and open `Tools | Scripts Manager`, add the script but do not assign it to a function key:
+
+![dxlog_script_manager2.png](dxlog_script_manager2.png)
+
+The `M1-M4` memory banks can now be recorded using SHIFT + a function key (F1-F4). Press SHIFT + a function key (F1-F4) again to stop recording.
+
+Don't forget to enable `use radio's internal voice keyer` in the DXLog K3 radio settings:
+
+![dxlog_k3_use_internal_vk.png](dxlog_k3_use_internal_vk.png)
 
 ## Conclusion
 
