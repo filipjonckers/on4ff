@@ -12,5 +12,7 @@ This is where I share a few of the projects, experiments, problem-solving advent
   {{< card link="contesting/dx-cluster-filter" title="DX Cluster contest filters" subtitle="Contesting" >}}
   {{< card link="contesting/contest-recording" title="Contest audio recording" subtitle="Contesting" >}}
   {{< card link="contesting/microphone-audio-settings" title="Microphone audio settings" subtitle="Contesting" >}}
+  {{< card link="contesting/hamset-headset-pc" title="Using a Hamset Bose headset on Mac/PC" subtitle="Contesting" >}}
+  {{< card link="contesting/k3-macros-n1mm-dxlog" title="Elecraft K3 Macros in N1MM, DXLog" subtitle="Contesting" >}}
   {{< card link="ads-b/pi-adsb-docker" title="ADS-B feeder using Docker" subtitle="Raspberry Pi" >}}
 {{< /cards >}}
