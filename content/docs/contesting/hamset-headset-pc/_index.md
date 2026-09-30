@@ -43,6 +43,10 @@ The splitter cable solution (TRS/TRS to TRRS) will not work due to the complex R
 
 ![rtts2rts.png](rts2rtts.png)
 
+More detailed information about the difference between TRS - TRRS can be found on [this website](https://rasantekaudio.com/connectors/trs-connectors-a-comprehensive-guide).
+
+![ts-trs-trrs.png](ts-trs-trrs.png)
+
 ## The Solution
 
 To resolve both issues, you need two hardware components:
