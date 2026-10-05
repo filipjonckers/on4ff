@@ -2,7 +2,7 @@
 date: '2025-12-10T20:20:00+02:00'
 draft: false
 title: 'Contesting'
-weight: 500
+weight: 400
 sidebar:
     open: true
 ---
