@@ -8,5 +8,5 @@ sidebar:
 ---
 
 {{< cards >}}
-  {{< card link="Wireshark-WSJTX-udp-2237" title="Wireshark WSJT-X / MSHV UDP port 2237 Dissector" subtitle="Software Development" >}}
+  {{< card link="wireshark-wsjtx-udp-2237" title="Wireshark WSJT-X / MSHV UDP port 2237 Dissector" subtitle="Software Development" >}}
 {{< /cards >}}
