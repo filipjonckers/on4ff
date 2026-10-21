@@ -19,7 +19,9 @@ categories:
   - Contest
   - DXpedition
 ---
-Trying to connect a radio headset from [**Hamset.com**](https://www.hamset.com) to your PC or Mac, but running into microphone issues?
+The [**Hamset Bose QC25 headset**](https://www.hamset.com) is my favourite professional contest headset, replacing my legacy 1993 Heil Sound Pro Set with HC-4 microphone element.
+
+Are you trying to connect a radio headset from [**Hamset.com**](https://www.hamset.com) to your PC or Mac, but running into microphone issues?
 
 Would you like to use the [**Hamset Bose QC25 headset**](https://www.hamset.com) not only when contesting but also when doing meetings or conference calls or **remote operations**?
 
